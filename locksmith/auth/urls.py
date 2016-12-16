@@ -1,4 +1,4 @@
-from django.conf.urls import *
+from django.conf.urls.defaults import *
 
 urlpatterns = patterns('locksmith.auth.views',
     url(r'^create_key/$', 'create_key', name='create_key'),
